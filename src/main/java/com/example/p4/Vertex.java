@@ -20,4 +20,13 @@ final public class Vertex {
     public int getY() {
         return y;
     }
+
+//    @Override
+//    public boolean equals (Object o) {
+//
+//    }
+    @Override
+    public int hashCode() {
+        return name.hashCode();
+    }
 }
